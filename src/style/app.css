@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply font-avenir leading-6;
+}
+
+.arrow {
+    @apply  bg-primary-800 p-2 rounded-lg text-white cursor-pointer duration-150 hover:bg-primary-500
+}
+
+.circle {
+    @apply shadow-xl rounded-full
+}
